@@ -1,18 +1,19 @@
+/* eslint-disable no-undef */
 module.exports = {
   root: true,
   env: {
     browser: true,
-    node: true
+    node: false,
   },
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: 'babel-eslint',
   },
   extends: [
     '@nuxtjs',
-    'plugin:nuxt/recommended'
+    'plugin:nuxt/recommended',
+    'airbnb-base',
   ],
   plugins: [
   ],
-  // add your custom rules here
-  rules: {}
-}
+  rules: {},
+};
