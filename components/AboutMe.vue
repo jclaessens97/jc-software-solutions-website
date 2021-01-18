@@ -72,7 +72,7 @@
           </picture>
         </div>
       </div>
-      <button class="action-button mt-4">
+      <button class="action-button mt-5">
         Get in touch
       </button>
     </div>
