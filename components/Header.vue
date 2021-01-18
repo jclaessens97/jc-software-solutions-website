@@ -1,0 +1,47 @@
+<template>
+  <header class="flex w-screen h-screen">
+    <div class="m-auto text-white tracking-wider">
+      <h1 class="text-6xl">
+        Hello, my name is <span class="text-teal-300 font-bold">Jeroen Claessens</span>.
+      </h1>
+      <h2 class="text-4xl">
+        I develop <span class="text-teal-300 font-bold">software</span>.
+      </h2>
+      <p class="mt-5 text-lg">
+        I'm a freelance software engineer based in Belgium
+        and I love to build challenging (web)applications.
+      </p>
+      <button class="action-button mt-4">
+        Get in touch
+      </button>
+    </div>
+    <div class="absolute bottom-0 flex justify-center w-screen animate-bounce">
+      <!-- Created by kiddo from the Noun Project -->
+      <img class="h-24" src="~/assets/img/scroll.svg" alt="scroll icon">
+    </div>
+  </header>
+</template>
+
+<style scoped>
+header {
+  position: relative;
+  z-index: 1;
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  background-image: url('~assets/img/jpg/header-bg1.jpg');
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: .6;
+  z-index: -1;
+}
+
+.webp::before {
+  background-image: url('~assets/img/webp/header-bg1.webp');
+}
+</style>
