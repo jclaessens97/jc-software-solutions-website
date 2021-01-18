@@ -6,26 +6,21 @@ body {
   @apply bg-gray-900 overflow-x-hidden;
 }
 
-section {
-  @apply px-56 h-screen mx-auto;
-}
-
-section h3 {
-  @apply text-4xl font-bold text-teal-300;
-}
-
-section p {
-  @apply text-white;
-}
-
-hr {
-  @apply border-teal-300;
-}
-
 .action-button {
   @apply p-3 bg-teal-400 rounded font-bold transition-all duration-500;
 }
 
 .action-button:hover {
   @apply bg-teal-300;
+}
+
+section h3 {
+  @apply text-teal-300 text-5xl font-bold;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  width: 50%;
+  background-image: linear-gradient(to right, rgba(129, 230, 217, 1), rgba(129, 230, 217, 0.75), rgba(129, 230, 217, 0));
 }
