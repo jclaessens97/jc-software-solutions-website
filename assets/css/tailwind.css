@@ -27,5 +27,5 @@ hr {
 }
 
 .action-button:hover {
-  @apply bg-teal-500;
+  @apply bg-teal-300;
 }

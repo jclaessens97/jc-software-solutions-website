@@ -24,6 +24,7 @@ export default {
   components: true,
 
   buildModules: [
+    '@nuxtjs/fontawesome',
     '@nuxtjs/eslint-module',
     '@nuxtjs/tailwindcss',
   ],
@@ -31,6 +32,18 @@ export default {
   modules: [
     '@nuxt/content',
   ],
+
+  fontawesome: {
+    icons: {
+      regular: [
+        'faEnvelope',
+      ],
+      brands: [
+        'faLinkedinIn',
+        'faGithub',
+      ],
+    },
+  },
 
   content: {},
 

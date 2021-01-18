@@ -1,9 +1,6 @@
 <template>
   <div class="container">
     <Header />
+    <Socials />
   </div>
 </template>
-
-<script>
-export default {};
-</script>
