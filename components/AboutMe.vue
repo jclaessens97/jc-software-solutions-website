@@ -1,11 +1,11 @@
 <template>
-  <section class="h-screen py-40">
+  <section class="h-full xl:pt-16 2xl:pt-40">
     <div class="col-span-full h-28">
       <h3>About Me</h3>
       <hr>
     </div>
     <div class="grid grid-rows-1 grid-cols-2">
-      <div class="text-white mt-10 text-lg">
+      <div class="text-white mt-10 md:text-base 2xl:text-lg">
         <p>
           Hi! I'm Jeroen, a freelance software engineer based in Antwerp, Belgium.
         </p>
