@@ -12,7 +12,7 @@
       please contact me via one of my socials (bottom left corner of the screen)
       or send me a message via the form below:
     </p>
-    <form ref="contactform" class="w-full max-w-lg mt-3" netlify>
+    <form ref="contactform" name="contact" class="w-full max-w-lg mt-3" netlify>
       <p v-if="success" class="text-green-500">
         Form succesfully submitted.
       </p>
