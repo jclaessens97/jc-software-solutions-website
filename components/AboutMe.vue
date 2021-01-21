@@ -21,7 +21,7 @@
             You can see more about them in the section
             <a
               href="#"
-              class="text-teal-300 transition-all duration-300 hover:opacity-75"
+              class="text-link"
             >
               projects
             </a> below.
