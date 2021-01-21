@@ -7,7 +7,7 @@ body {
 }
 
 .action-button {
-  @apply p-3 bg-teal-400 rounded font-bold transition-all duration-500;
+  @apply p-3 bg-teal-400 text-white rounded font-bold transition-all duration-500;
 }
 
 .action-button:hover {
