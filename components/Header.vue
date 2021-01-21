@@ -2,10 +2,10 @@
   <header class="flex w-screen h-screen">
     <div class="m-auto text-white tracking-wider">
       <h1 class="text-6xl">
-        Hello, my name is <span class="text-teal-300 font-bold">Jeroen Claessens</span>.
+        Hello, my name is <span class="text-teal-300 font-bold">Jeroen Claessens</span>
       </h1>
       <h2 class="text-4xl">
-        I develop <span class="text-teal-300 font-bold">software</span>.
+        I develop <span class="text-teal-300 font-bold">software</span>
       </h2>
       <p class="mt-5 text-lg">
         I'm a freelance software engineer based in Belgium
