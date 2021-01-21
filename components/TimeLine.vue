@@ -5,12 +5,12 @@
       <hr>
     </div>
     <div>
-      <h4>Education</h4>
-      <VerticalTimeline :input="educationData" class="ml-10 mt-5" />
-    </div>
-    <div class="mt-5">
       <h4>Work experience</h4>
       <VerticalTimeline :input="workData" class="ml-10 mt-5" />
+    </div>
+    <div class="mt-5">
+      <h4>Education</h4>
+      <VerticalTimeline :input="educationData" class="ml-10 mt-5" />
     </div>
     <p class="py-3 text-white">
       For more detailed information, please visit my
