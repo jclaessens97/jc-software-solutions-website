@@ -9,6 +9,9 @@
     <a href="https://github.com/jclaessens97" target="_blank">
       <font-awesome-icon :icon="['fab', 'github']" />
     </a>
+    <a href="https://discordapp.com/users/310137027330965514/" target="_blank">
+      <font-awesome-icon :icon="['fab', 'discord']" />
+    </a>
     <a href="mailto:jclaessens97@hotmail.com">
       <font-awesome-icon :icon="['far', 'envelope']" />
     </a>

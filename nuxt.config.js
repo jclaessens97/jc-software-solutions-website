@@ -41,6 +41,7 @@ export default {
       brands: [
         'faLinkedinIn',
         'faGithub',
+        'faDiscord',
       ],
     },
   },
