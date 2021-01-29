@@ -24,6 +24,6 @@ svg {
 }
 
 svg:hover {
-  opacity: .7;
+  @apply text-teal-300;
 }
 </style>
