@@ -8,8 +8,8 @@
       Do you have an idea for a new website or app or do you want
       to make modifications on your existing software?
       If you're looking for someone as an addition to
-      your software team or someone to help you realize one of your software goals
-      please contact me via one of my socials (bottom left corner of the screen)
+      your software team or someone to help you realize one of your software projects
+      please contact me via one of my socials
       or send me a message via the form below:
     </p>
     <form ref="contactform" class="w-full max-w-lg mt-3" netlify netlify-honeypot="bot-field">
