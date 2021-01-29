@@ -12,7 +12,8 @@
       please contact me via one of my socials (bottom left corner of the screen)
       or send me a message via the form below:
     </p>
-    <form ref="contactform" name="contact" class="w-full max-w-lg mt-3" data-netlify="true">
+    <form ref="contactform" class="w-full max-w-lg mt-3" netlify netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="contact">
       <p v-if="success" class="text-green-500">
         Form succesfully submitted.
       </p>
@@ -189,18 +190,6 @@ export default {
   },
 };
 </script>
-
-const handleSubmit = (e) => {
-  e.preventDefault()
-  let myForm = document.getElementById('pizzaOrder');
-  let formData = new FormData(myForm)
-  fetch('/', {
-    method: 'POST',
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams(formData).toString()
-  }).then(() => console.log('Form successfully submitted')).catch((error) =>
-    alert(error))
-}
 
 <style scoped>
 label {
