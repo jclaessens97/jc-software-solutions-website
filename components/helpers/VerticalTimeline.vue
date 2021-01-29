@@ -7,7 +7,7 @@
     >
       <div class="flex -mt-1 pb-3">
         <div
-          class="rounded bg-teal-300 text-white p-1 w-auto text-center font-bold"
+          class="rounded bg-teal-300 text-gray-900 p-1 w-auto text-center font-bold"
         >
           {{ item.period }}
         </div>
