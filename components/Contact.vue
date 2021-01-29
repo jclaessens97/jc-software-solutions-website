@@ -14,14 +14,13 @@
     </p>
     <form ref="contactform" class="w-full max-w-lg mt-3" netlify netlify-honeypot="bot-field">
       <input type="hidden" name="form-name" value="contact">
-      <p v-if="success" class="text-green-500">
-        Form succesfully submitted.
+      <p v-if="success" class="rounded bg-green-500 text-white p-3 my-2">
+        Message succesfully submitted!
       </p>
-      <ul v-if="invalid" class="my-4">
+      <ul v-if="invalid" class="my-4 rounded bg-red-500 text-white p-3 my-2">
         <li
           v-for="(error, index) in errorMessages"
           :key="`error-${index}`"
-          class="text-red-500"
         >
           {{ error }}
         </li>
@@ -127,7 +126,7 @@ export default {
       message: '',
     },
     errorMessages: [],
-    invalid: true,
+    invalid: false,
     sending: false,
     success: false,
   }),
@@ -171,7 +170,7 @@ export default {
             },
             body: new URLSearchParams(formData).toString(),
           });
-          this.sent = true;
+          this.success = true;
         } catch (err) {
           this.errorMessages.push('Something went wrong. Please try again later.');
           this.invalid = true;
