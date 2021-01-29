@@ -7,5 +7,6 @@
       <Contact />
     </main>
     <Socials />
+    <Footer />
   </div>
 </template>
