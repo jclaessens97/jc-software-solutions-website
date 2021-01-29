@@ -49,13 +49,14 @@
         <p class="mt-5">
           That said, I compiled a list of technologies where
           I feel myself very confident to work with:
-          <ul class="text-base mt-3">
+          <ul class="text-base mt-3 ml-5">
             <li>JavaScript (NodeJS, Vue/Nuxt, es6+, electron, ...)</li>
             <li>Java (Spring, JavaFX, ...)</li>
             <li>C# (.NET Core, WPF, ...)</li>
             <li>SQL/noSQL Databases (PostgreSQL, MySQL, MSSQL, MongoDB, ...)</li>
             <li>AWS/Azure/GCP (most proficient in AWS, but worked in all three)</li>
             <li>CI/CD Pipelines</li>
+            <li>GIT</li>
           </ul>
         </p>
       </div>
