@@ -92,7 +92,7 @@
             id="message"
             v-model="input.message"
             name="message"
-            class="no-resize textfield"
+            class="textfield h-48 no-resize"
             required
           />
         </div>
