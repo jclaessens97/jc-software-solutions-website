@@ -1,7 +1,7 @@
 <template>
   <aside
     class="text-3xl text-white fixed bottom-0 h-auto z-10
-    flex flex-col space-y-3 mb-5 ml-5 justify-center"
+    flex flex-col space-y-3 mb-8 ml-5 justify-center"
   >
     <a href="https://www.linkedin.com/in/jclaessens" target="_blank">
       <font-awesome-icon :icon="['fab', 'linkedin-in']" />
