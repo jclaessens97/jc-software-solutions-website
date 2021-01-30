@@ -12,12 +12,6 @@
       <h4>Education</h4>
       <VerticalTimeline :input="educationData" class="ml-10 mt-5" />
     </div>
-    <p class="py-3 text-white">
-      For more detailed information, please visit my
-      <a href="https://www.linkedin.com/in/jclaessens" target="_blank" class="text-link">
-        LinkedIn
-      </a>.
-    </p>
     <button class="action-button">
       Get in touch
     </button>
