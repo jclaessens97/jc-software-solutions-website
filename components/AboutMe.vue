@@ -16,16 +16,6 @@
           After finishing high school I decided I want more and went to
           Karel de Grote University College in Antwerp where
           I studied Applied Computer Science with a focus on Application Development.
-          <span class="inline-block mt-3">
-            During my studies I worked on several projects, both school and non-school related.
-            You can see more about them in the section
-            <a
-              href="#"
-              class="text-link"
-            >
-              projects
-            </a> below.
-          </span>
         </p>
         <p class="mt-5">
           Apart from writing code, I play basketball and I love to travel and go on hikes.
