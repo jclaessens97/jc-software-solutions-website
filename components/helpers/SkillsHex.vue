@@ -60,6 +60,19 @@
         </span>
       </div>
     </li>
+    <li class="hex" />
+    <li class="hex">
+      <div class="hexIn">
+        <span class="hexLink" href="#">
+          <img
+            src="~/assets/img/skills/ai-logo.png"
+            alt="Artificial Intelligence"
+          >
+          <h1>AI</h1>
+          <p>Deep Learning, Keras, Tensorflow, Python,  ...</p>
+        </span>
+      </div>
+    </li>
   </ul>
 </template>
 
