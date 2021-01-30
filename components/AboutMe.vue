@@ -46,19 +46,11 @@
           that's why I'm always open to step into new technologies and gain knowledge on them.
           On of my biggest plusses is that I can adapt quickly to new technologies.
         </p>
-        <p class="mt-5">
+        <p class="mt-5 mb-5">
           That said, I compiled a list of technologies where
-          I feel myself very confident to work with:
-          <ul class="text-base mt-3 ml-5">
-            <li>JavaScript (NodeJS, Vue/Nuxt, es6+, electron, ...)</li>
-            <li>Java (Spring, JavaFX, ...)</li>
-            <li>C# (.NET Core, WPF, ...)</li>
-            <li>SQL/noSQL Databases (PostgreSQL, MySQL, MSSQL, MongoDB, ...)</li>
-            <li>AWS/Azure/GCP (most proficient in AWS, but worked in all three)</li>
-            <li>CI/CD Pipelines</li>
-            <li>GIT</li>
-          </ul>
+          I feel myself very confident to work with below:
         </p>
+        <SkillsHex />
       </div>
       <div>
         <div class="wrapper w-3/5 h-auto mx-auto">
@@ -83,12 +75,5 @@
 <style scoped>
 img {
   box-shadow: 20px 20px 0 -3px #1a202c, 20px 20px #81e6d9;
-}
-
-ul li::before {
-  content: '>';
-  color: #81e6d9;
-  font-weight: bold;
-  margin-right: 1rem;
 }
 </style>
