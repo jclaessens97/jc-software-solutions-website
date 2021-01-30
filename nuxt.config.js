@@ -17,6 +17,7 @@ export default {
   ],
 
   plugins: [
+    { src: '~/plugins/VueFlagIcon.js', ssr: false },
   ],
 
   components: true,
@@ -33,6 +34,9 @@ export default {
 
   fontawesome: {
     icons: {
+      solid: [
+        'faExternalLinkAlt',
+      ],
       regular: [
         'faEnvelope',
       ],

@@ -6,29 +6,28 @@
     </div>
     <div>
       <h4>Work experience</h4>
-      <VerticalTimeline :input="workData" class="ml-10 mt-5" />
+      <VerticalTimeline :input="workData" type="work" class="ml-10 mt-5" />
     </div>
     <div class="mt-5">
       <h4>Education</h4>
-      <VerticalTimeline :input="educationData" class="ml-10 mt-5" />
+      <VerticalTimeline :input="educationData" type="edu" class="ml-10 mt-5" />
     </div>
-    <button class="action-button">
+    <button class="action-button mt-5">
       Get in touch
     </button>
   </section>
 </template>
 
 <script>
-import education from '../assets/data/education.json';
-import work from '../assets/data/work.json';
+import resume from '../assets/data/resume.json';
 
 export default {
   computed: {
     educationData() {
-      return education;
+      return resume.education;
     },
     workData() {
-      return work;
+      return resume.work;
     },
   },
 };
