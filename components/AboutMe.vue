@@ -4,8 +4,19 @@
       <h3>About Me</h3>
       <hr>
     </div>
-    <div class="grid grid-rows-1 grid-cols-2">
-      <div class="text-white mt-10 md:text-base 2xl:text-lg">
+    <div class="flex flex-col xl:flex-row">
+      <div class="wrapper w-2/5 sm:w-1/4 xl:w-3/5 max-w-xs h-auto mx-auto mt-5">
+        <picture>
+          <source srcset="~/assets/img/webp/me.webp">
+          <source srcset="~/assets/img/jpg/me.jpg">
+          <img
+            src="~/assets/img/jpg/me.jpg"
+            alt="avatar"
+            class="rounded-md border-4 border-teal-300 "
+          >
+        </picture>
+      </div>
+      <div class="text-white mt-10 md:text-base 2xl:text-lg xl:pl-12">
         <p>
           Hi! I'm Jeroen, a freelance software engineer based in Antwerp, Belgium.
         </p>
@@ -36,26 +47,19 @@
           that's why I'm always open to step into new technologies and gain knowledge on them.
           On of my biggest plusses is that I can adapt quickly to new technologies.
         </p>
-        <p class="mt-5 mb-5">
-          That said, I compiled a list of technologies where
-          I feel myself very confident to work with below:
-        </p>
+      </div>
+    </div>
+    <div class="my-5">
+      <p class="text-white md:text-center">
+        That said, I compiled a list of technologies where
+        I feel myself very confident to work with below:
+      </p>
+      <div class="w-4/5 sm:w-3/5 md:w-2/5 mx-auto mt-3">
         <SkillsHex />
       </div>
-      <div>
-        <div class="wrapper w-3/5 h-auto mx-auto">
-          <picture>
-            <source srcset="~/assets/img/webp/me.webp">
-            <source srcset="~/assets/img/jpg/me.jpg">
-            <img
-              src="~/assets/img/jpg/me.jpg"
-              alt="avatar"
-              class="rounded-md border-4 border-teal-300"
-            >
-          </picture>
-        </div>
-      </div>
-      <button class="action-button mt-5">
+    </div>
+    <div class="text-center">
+      <button class="action-button mt-5 mx-auto">
         Get in touch
       </button>
     </div>

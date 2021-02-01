@@ -60,7 +60,7 @@
         </span>
       </div>
     </li>
-    <li class="hex" />
+    <li v-if="width > 600" class="hex" />
     <li class="hex">
       <div class="hexIn">
         <span class="hexLink" href="#">
@@ -75,6 +75,14 @@
     </li>
   </ul>
 </template>
+
+<script>
+import sizeMixin from '../../mixins/sizeMixin';
+
+export default {
+  mixins: [sizeMixin],
+};
+</script>
 
 <style scoped>
 #hexGrid {
