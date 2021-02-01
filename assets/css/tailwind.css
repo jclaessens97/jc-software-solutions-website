@@ -28,11 +28,3 @@ hr {
   width: 50%;
   background-image: linear-gradient(to right, rgba(129, 230, 217, 1), rgba(129, 230, 217, 0.75), rgba(129, 230, 217, 0));
 }
-
-.text-link {
-  @apply text-teal-300 transition-all duration-300;
-}
-
-.text-link:hover {
-  @apply opacity-75;
-}
