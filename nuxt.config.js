@@ -20,6 +20,7 @@ export default {
 
   plugins: [
     { src: '~/plugins/VueFlagIcon.js', ssr: false },
+    { src: '~/plugins/VueSmoothScroll.js' },
   ],
 
   components: true,

@@ -11,9 +11,9 @@
         I'm a freelance software engineer based in Belgium
         and I love to build challenging (web)applications.
       </p>
-      <button class="action-button mt-4">
+      <a v-smooth-scroll href="#contact" class="action-button mt-4">
         Get in touch
-      </button>
+      </a>
     </div>
     <div class="absolute bottom-0 flex justify-center w-screen animate-bounce">
       <!-- Created by kiddo from the Noun Project -->

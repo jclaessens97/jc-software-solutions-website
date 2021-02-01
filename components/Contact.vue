@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="contact">
     <div class="col-span-full h-28 xl:pt-16 2xl:pt-40">
       <h3>Contact</h3>
       <hr>
