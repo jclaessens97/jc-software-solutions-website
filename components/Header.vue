@@ -4,7 +4,7 @@
       <h1 class="text-6xl">
         Hello, my name is <span class="text-teal-300 font-bold">Jeroen Claessens</span>
       </h1>
-      <h2 class="text-4xl">
+      <h2 ref="subline" class="text-4xl">
         I develop <span class="text-teal-300 font-bold">software</span>
       </h2>
       <p class="mt-5 text-lg">
@@ -21,6 +21,39 @@
     </div>
   </header>
 </template>
+
+<script>
+import TypeWriter from 'typewriter-effect/dist/core';
+
+export default {
+  mounted() {
+    this.startTypeWriter();
+  },
+  methods: {
+    startTypeWriter() {
+      const typewriter = new TypeWriter(
+        this.$refs.subline,
+      );
+
+      typewriter
+        .pauseFor(500)
+        .typeString('I write <span class="text-teal-300 font-bold">code</span>')
+        .pauseFor(750)
+        .deleteChars(10)
+        .typeString(' build <span class="text-teal-300 font-bold">software</span>')
+        .pauseFor(750)
+        .deleteChars(8)
+        .typeString('<span class="text-teal-300 font-bold">solutions</span>.')
+        .pauseFor(1000)
+        .callFunction((state) => {
+          // eslint-disable-next-line
+          state.elements.cursor.style.display = 'none';
+        })
+        .start();
+    },
+  },
+};
+</script>
 
 <style scoped>
 header {
