@@ -1,13 +1,13 @@
 <template>
   <header class="flex w-screen h-screen">
-    <div class="m-auto text-white tracking-wider">
-      <h1 class="text-6xl">
+    <div class="px-5 md:px-0 m-auto text-white tracking-wider text-center md:text-left">
+      <h1 class="text-2xl sm:text-4xl md:text-5xl xl:text-6xl">
         Hello, my name is <span class="text-teal-300 font-bold">Jeroen Claessens</span>
       </h1>
-      <h2 ref="subline" class="text-4xl">
+      <h2 ref="subline" class="text-xl sm:text-2xl md:text-4xl xl:text-5xl">
         I develop <span class="text-teal-300 font-bold">software</span>
       </h2>
-      <p class="mt-5 text-lg">
+      <p class="mt-5 md:text-lg">
         I'm a freelance software engineer based in Belgium
         and I love to build challenging (web)applications.
       </p>
