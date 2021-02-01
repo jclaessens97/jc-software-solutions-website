@@ -4,7 +4,7 @@
       <h3>Contact</h3>
       <hr>
     </div>
-    <p class="text-white mt-5 w-3/4">
+    <p class="text-white mx-auto mt-5 w-full lg:w-3/5">
       Do you have an idea for a new website or app or do you want
       to make modifications on your existing software?
       If you're looking for someone as an addition to
@@ -12,7 +12,12 @@
       please contact me via one of my socials
       or send me a message via the form below:
     </p>
-    <form ref="contactform" class="w-full max-w-lg mt-3" netlify netlify-honeypot="bot-field">
+    <form
+      ref="contactform"
+      class="w-full max-w-lg mx-auto mt-3"
+      netlify
+      netlify-honeypot="bot-field"
+    >
       <input type="hidden" name="form-name" value="contact">
       <p v-if="success" class="rounded bg-green-500 text-white p-3 my-2">
         Message succesfully submitted!

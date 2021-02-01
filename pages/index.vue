@@ -5,7 +5,7 @@
       <AboutMe />
       <TimeLine />
       <References />
-      <Contact />
+      <Contact class="mb-8" />
     </main>
     <Socials />
     <Footer />
