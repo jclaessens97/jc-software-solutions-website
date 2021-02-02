@@ -4,6 +4,9 @@ export default {
   target: 'static',
 
   head: {
+    htmlAttrs: {
+      lang: 'en',
+    },
     title: 'Jeroen Claessens',
     meta: [
       { charset: 'utf-8' },
