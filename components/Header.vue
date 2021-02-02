@@ -73,8 +73,4 @@ header::before {
   opacity: .6;
   z-index: -1;
 }
-
-.webp::before {
-  background-image: url('~assets/img/webp/header-bg1.webp');
-}
 </style>
