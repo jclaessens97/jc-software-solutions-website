@@ -35,7 +35,6 @@ export default {
   ],
 
   modules: [
-    '@nuxt/content',
   ],
 
   fontawesome: {
