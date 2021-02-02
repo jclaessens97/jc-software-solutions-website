@@ -86,14 +86,12 @@ export default {
 
 <style scoped>
 #hexGrid {
-  @apply text-gray-900;
   display: flex;
   flex-wrap: wrap;
   width: 90%;
   margin: 0 auto;
   overflow: hidden;
-  font-family: "Raleway", sans-serif;
-  font-size: 15px;
+  font-size: 13px;
   list-style-type: none;
 }
 
@@ -125,11 +123,11 @@ export default {
   outline: 1px solid transparent; /* fix for jagged edges in FF on hover transition */
 }
 .hexLink {
+  @apply text-gray-900;
   display: block;
   width: 100%;
   height: 100%;
   text-align: center;
-  color: #fff;
   overflow: hidden;
   -webkit-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
   -ms-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
@@ -174,7 +172,7 @@ export default {
   left: 45%;
   width: 10%;
   text-align: center;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #1a202c;
 }
 .hex p {
   top: 50%;
