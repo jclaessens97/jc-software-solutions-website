@@ -8,6 +8,7 @@
       <carousel
         :autoplay="options.autoplay"
         :autoplay-hover-pause="options.autoplayHoverPause"
+        :loop="options.loop"
         :per-page="options.perPage"
         :pagination-active-color="options.paginationActiveColor"
         :pagination-color="options.paginationColor"
@@ -35,6 +36,7 @@ export default {
     options: {
       autoplay: true,
       autoplayHoverPause: true,
+      loop: true,
       perPage: 1,
       paginationActiveColor: '#81e6d9',
       paginationColor: '#fff',
