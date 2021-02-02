@@ -3,6 +3,7 @@ export default {
     width: 0,
   }),
   mounted() {
+    this.handleResize();
     window.onresize = this.handleResize;
   },
   methods: {
