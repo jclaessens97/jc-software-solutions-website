@@ -64,7 +64,7 @@ header {
 header::before {
   content: '';
   position: absolute;
-  background-image: url('~assets/img/jpg/header-bg1.jpg');
+  background-image: url('~assets/img/jpg/header-bg1.webp');
   background-size: cover;
   top: 0;
   left: 0;
