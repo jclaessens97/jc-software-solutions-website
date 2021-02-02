@@ -32,12 +32,12 @@
       </ul>
       <div class="flex flex-wrap -mx-3 mb-6">
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-          <label for="grid-first-name">
+          <label for="first-name">
             First Name
             <sup class="text-red-500">*</sup>
           </label>
           <input
-            id="grid-first-name"
+            id="first-name"
             v-model="input.firstName"
             name="firstName"
             type="text"
@@ -46,12 +46,12 @@
           >
         </div>
         <div class="w-full md:w-1/2 px-3">
-          <label for="grid-last-name">
+          <label for="last-name">
             Last Name
             <sup class="text-red-500">*</sup>
           </label>
           <input
-            id="grid-last-name"
+            id="last-name"
             v-model="input.lastName"
             name="lastName"
             type="text"
@@ -62,7 +62,7 @@
       </div>
       <div class="flex flex-wrap -mx-3 mb-6">
         <div class="w-full px-3">
-          <label for="grid-company">
+          <label for="company">
             Company
           </label>
           <input
@@ -75,7 +75,7 @@
       </div>
       <div class="flex flex-wrap -mx-3 mb-6">
         <div class="w-full px-3">
-          <label for="grid-password">
+          <label for="email">
             E-mail
             <sup class="text-red-500">*</sup>
           </label>
@@ -89,7 +89,7 @@
       </div>
       <div class="flex flex-wrap -mx-3 mb-6">
         <div class="w-full px-3">
-          <label for="grid-message">
+          <label for="message">
             Message
             <sup class="text-red-500">*</sup>
           </label>
