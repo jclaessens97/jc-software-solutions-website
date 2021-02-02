@@ -53,7 +53,11 @@ export default {
     },
   },
 
-  content: {},
+  loadingIndicator: {
+    name: 'cube-grid',
+    color: '#81e6d9',
+    background: '#1a202c',
+  },
 
   build: {
   },
