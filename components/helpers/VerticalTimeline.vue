@@ -25,17 +25,6 @@
             :alt="item.logo.slice(0, item.logo.length - 4)"
             class="w-24 mx-auto mb-8"
           >
-          <a
-            class="underline transition-all duration-300 hover:text-teal-300"
-            :href="item.url"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            view website
-            <sup class="text-xs">
-              <font-awesome-icon :icon="['fas', 'external-link-alt']" />
-            </sup>
-          </a>
         </div>
         <div class="flex flex-col my-auto">
           <h5 class="font-bold text-lg">
@@ -53,6 +42,21 @@
                 {{ highlight }}
               </li>
             </ul>
+          </div>
+
+          <div class="flex mt-2 space-x-4 mt-3">
+            <a
+              v-if="item.url"
+              :href="item.url"
+              class="text-link"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              view website
+              <sup class="text-xs">
+                <font-awesome-icon :icon="['fas', 'external-link-alt']" />
+              </sup>
+            </a>
           </div>
         </div>
       </div>
@@ -136,5 +140,13 @@ export default {
     border-left: 1px solid #81e6d9;
     height: 100%;
     width: 1px;
+}
+
+.text-link {
+  @apply text-teal-300 transition-all duration-300 uppercase font-bold;
+}
+
+.text-link:hover {
+  @apply opacity-75;
 }
 </style>
