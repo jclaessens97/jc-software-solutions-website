@@ -1,16 +1,11 @@
 <template>
   <section id="contact">
     <div class="col-span-full h-28 xl:pt-16 2xl:pt-40">
-      <h3>Contact</h3>
+      <h3>{{ $t('contact.title') }}</h3>
       <hr>
     </div>
     <p class="text-white mx-auto mt-5 w-full lg:w-3/5">
-      Do you have an idea for a new website or app or do you want
-      to make modifications on your existing software?
-      If you're looking for someone as an addition to
-      your software team or someone to help you realize one of your software projects
-      please contact me via one of my socials
-      or send me a message via the form below:
+      {{ $t('contact.paragraph') }}
     </p>
     <form
       ref="contactform"
@@ -20,7 +15,7 @@
     >
       <input type="hidden" name="form-name" value="contact">
       <p v-if="success" class="rounded bg-green-500 text-white p-3 my-2">
-        Message succesfully submitted!
+        {{ $t('contact.success') }}
       </p>
       <ul v-if="invalid" class="my-4 rounded bg-red-500 text-white p-3 my-2">
         <li
@@ -33,7 +28,7 @@
       <div class="flex flex-wrap -mx-3 mb-6">
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
           <label for="first-name">
-            First Name
+            {{ $t('contact.firstName') }}
             <sup class="text-red-500">*</sup>
           </label>
           <input
@@ -47,7 +42,7 @@
         </div>
         <div class="w-full md:w-1/2 px-3">
           <label for="last-name">
-            Last Name
+            {{ $t('contact.lastName') }}
             <sup class="text-red-500">*</sup>
           </label>
           <input
@@ -63,7 +58,7 @@
       <div class="flex flex-wrap -mx-3 mb-6">
         <div class="w-full px-3">
           <label for="company">
-            Company
+            {{ $t('contact.company') }}
           </label>
           <input
             id="company"
@@ -76,7 +71,7 @@
       <div class="flex flex-wrap -mx-3 mb-6">
         <div class="w-full px-3">
           <label for="email">
-            E-mail
+            {{ $t('contact.email') }}
             <sup class="text-red-500">*</sup>
           </label>
           <input
@@ -90,7 +85,7 @@
       <div class="flex flex-wrap -mx-3 mb-6">
         <div class="w-full px-3">
           <label for="message">
-            Message
+            {{ $t('contact.message') }}
             <sup class="text-red-500">*</sup>
           </label>
           <textarea
@@ -110,7 +105,7 @@
             type="button"
             @click="sendMessage"
           >
-            Send
+            {{ $t('contact.send') }}
           </button>
           <img v-if="sending" src="~/assets/img/puff.svg" class="mx-auto">
         </div>
@@ -202,7 +197,7 @@ label {
 
 .textfield {
   @apply appearance-none block w-full bg-gray-200 text-gray-700
-        border border-gray-200 rounded py-3 px-4 mb-3 leading-tight;
+        border border-gray-200 rounded py-2 px-2 mb-3 leading-tight;
 }
 
 .textfield:focus {

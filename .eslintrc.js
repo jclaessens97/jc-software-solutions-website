@@ -15,5 +15,9 @@ module.exports = {
   ],
   plugins: [
   ],
-  rules: {},
+  rules: {
+    // This rule makes only sense when there is user input.
+    // I'm only using it with i18n, so no need for this rule.
+    'vue/no-v-html': 'off',
+  },
 };

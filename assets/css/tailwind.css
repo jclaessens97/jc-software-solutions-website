@@ -28,3 +28,7 @@ hr {
   width: 50%;
   background-image: linear-gradient(to right, rgba(129, 230, 217, 1), rgba(129, 230, 217, 0.75), rgba(129, 230, 217, 0));
 }
+
+.highlight {
+  @apply text-teal-300 font-bold;
+}

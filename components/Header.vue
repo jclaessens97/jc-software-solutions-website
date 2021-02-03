@@ -2,17 +2,14 @@
   <header class="flex w-screen h-screen">
     <div class="px-5 md:px-0 m-auto text-white tracking-wider text-center md:text-left">
       <h1 class="text-2xl sm:text-4xl md:text-5xl xl:text-6xl">
-        Hello, my name is <span class="text-teal-300 font-bold">Jeroen Claessens</span>
+        {{ $t('header.headtitle') }} <span class="text-teal-300 font-bold">Jeroen Claessens</span>
       </h1>
-      <h2 ref="subline" class="text-xl sm:text-2xl md:text-4xl xl:text-5xl">
-        I develop <span class="text-teal-300 font-bold">software</span>
-      </h2>
+      <h2 ref="subtitle" class="text-xl sm:text-2xl md:text-4xl xl:text-5xl" />
       <p class="mt-5 md:text-lg">
-        I'm a freelance software engineer based in Belgium
-        and I love to build challenging (web)applications.
+        {{ $t('header.subline') }}
       </p>
       <a v-smooth-scroll href="#contact" class="action-button mt-4">
-        Get in touch
+        {{ $t('actions.getInTouch') }}
       </a>
     </div>
     <div class="absolute bottom-0 flex justify-center w-screen animate-bounce">
@@ -32,18 +29,18 @@ export default {
   methods: {
     startTypeWriter() {
       const typewriter = new TypeWriter(
-        this.$refs.subline,
+        this.$refs.subtitle,
       );
 
       typewriter
         .pauseFor(500)
-        .typeString('I write <span class="text-teal-300 font-bold">code</span>')
+        .typeString(this.$t('header.subtitle1'))
         .pauseFor(750)
         .deleteChars(10)
-        .typeString(' build <span class="text-teal-300 font-bold">software</span>')
+        .typeString(this.$t('header.subtitle2'))
         .pauseFor(750)
         .deleteChars(8)
-        .typeString('<span class="text-teal-300 font-bold">solutions</span>.')
+        .typeString(this.$t('header.subtitle3'))
         .pauseFor(1000)
         .callFunction((state) => {
           // eslint-disable-next-line

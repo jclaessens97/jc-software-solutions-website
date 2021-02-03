@@ -11,3 +11,27 @@
     <Footer />
   </div>
 </template>
+
+<script>
+export default {
+  head() {
+    const i18nHead = this.$nuxtI18nHead({ addSeoAttributes: true });
+    return {
+      htmlAttrs: {
+        ...i18nHead.htmlAttrs,
+      },
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$t('meta.description'),
+        },
+        ...i18nHead.meta,
+      ],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      ],
+    };
+  },
+};
+</script>

@@ -1,7 +1,7 @@
 <template>
   <section class="h-full xl:pt-16 2xl:pt-40">
     <div class="col-span-full h-28">
-      <h3>About Me</h3>
+      <h3>{{ $t('aboutMe.title') }}</h3>
       <hr>
     </div>
     <div class="flex flex-col xl:flex-row">
@@ -18,42 +18,16 @@
       </div>
       <div class="text-white mt-10 md:text-base 2xl:text-lg xl:pl-12">
         <p>
-          Hi! I'm Jeroen, a freelance software engineer based in Antwerp, Belgium.
+          {{ $t('aboutMe.paragraph1') }}
         </p>
-        <p class="mt-5">
-          Since I was younger I've always been passionate about everything that involved computers.
-          As soon as I could I followed a course in high school that involved basic
-          computer programming, networking and hardware.
-          After finishing high school I decided I want more and went to
-          Karel de Grote University College in Antwerp where
-          I studied Applied Computer Science with a focus on Application Development.
-        </p>
-        <p class="mt-5">
-          Apart from writing code, I play basketball and I love to travel and go on hikes.
-          The header image you see at the top of the page is from one of the hikes
-          I did when I did an internship/worked in Finland for 6 months.
-        </p>
-        <p class="mt-5">
-          Altough I have experience with both frontend,
-          backend and deployment aspects of the development cycle,
-          I prefer doing backend development but frontend
-          development/deployment definetly doesn't scare me.
-        </p>
-        <p class="mt-5">
-          Because computer technologies are always changing and there is always
-          a new technology lurking around the block it's hard to list all the technologies
-          I came across with. In my eyes it's also important as a developer to
-          always stay up to date with the newest trends and technologies,
-          that's why I'm always open to step into new technologies and gain knowledge on them.
-          On of my biggest plusses is that I can adapt quickly to new technologies.
-        </p>
+        <p class="mt-5" v-html="$t('aboutMe.paragraph2')" />
+        <p class="mt-5" v-html="$t('aboutMe.paragraph3')" />
+        <p class="mt-5" v-html="$t('aboutMe.paragraph4')" />
+        <p class="mt-5" v-html="$t('aboutMe.paragraph5')" />
+        <p class="mt-5" v-html="$t('aboutMe.paragraph6')" />
       </div>
     </div>
     <div class="my-5">
-      <p class="text-white md:text-center">
-        That said, I compiled a list of technologies where
-        I feel myself very confident to work with below:
-      </p>
       <div class="w-4/5 sm:w-3/5 md:w-2/5 mx-auto mt-3">
         <SkillsHex />
       </div>

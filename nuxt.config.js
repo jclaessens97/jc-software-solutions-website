@@ -4,9 +4,6 @@ export default {
   target: 'static',
 
   head: {
-    htmlAttrs: {
-      lang: 'en',
-    },
     title: 'Jeroen Claessens',
     meta: [
       { charset: 'utf-8' },
@@ -35,7 +32,24 @@ export default {
   ],
 
   modules: [
+    'nuxt-i18n',
   ],
+
+  i18n: {
+    lazy: true,
+    langDir: './locales/',
+    locales: [
+      { code: 'en', iso: 'en', file: 'en.json' },
+    ],
+    defaultLocale: 'en',
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      onlyOnRoot: true,
+    },
+    // SEO is setup on index.vue to improve performance (see nuxt-i18n docs)
+    seo: false,
+  },
 
   fontawesome: {
     icons: {
