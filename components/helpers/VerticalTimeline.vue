@@ -18,12 +18,12 @@
           <flag :iso="parseFlagIcon(item)" :squared="false" />
         </div>
       </div>
-      <div class="flex pb-3">
+      <div class="flex flex-col md:flex-row pb-3">
         <div class="w-40 my-auto flex-shrink-0 text-center">
           <img
             :src="require(`~/assets/img/logos/${item.logo}`)"
             :alt="item.logo.slice(0, item.logo.length - 4)"
-            class="w-24 mx-auto mb-8"
+            class="w-24 mx-auto mb-4 md:mb-8"
           >
         </div>
         <div class="flex flex-col my-auto">
@@ -65,7 +65,10 @@
 </template>
 
 <script>
+import sizeMixin from '../../mixins/sizeMixin';
+
 export default {
+  mixins: [sizeMixin],
   props: {
     input: {
       type: Array,
@@ -103,8 +106,13 @@ export default {
       const start = new Date(item.startDate);
       const end = new Date(item.endDate);
 
-      const startMonth = monthNames[start.getMonth()];
-      const endMonth = monthNames[end.getMonth()];
+      let startMonth = monthNames[start.getMonth()];
+      let endMonth = monthNames[end.getMonth()];
+
+      if (this.width < 768) {
+        startMonth = startMonth.substring(0, 3);
+        endMonth = endMonth.substring(0, 3);
+      }
 
       return `${startMonth} ${start.getFullYear()} - ${endMonth} ${end.getFullYear()}`;
     },
