@@ -1,8 +1,5 @@
 <template>
-  <aside
-    class="text-3xl text-white fixed bottom-0 h-auto z-10
-    flex flex-col space-y-3 mb-8 ml-5 justify-center"
-  >
+  <aside :class="classes">
     <a href="https://www.linkedin.com/in/jclaessens" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn Icon">
       <font-awesome-icon :icon="['fab', 'linkedin-in']" />
     </a>
@@ -17,6 +14,28 @@
     </a>
   </aside>
 </template>
+
+<script>
+export default {
+  props: {
+    orientation: {
+      type: String,
+      default: 'vertical',
+    },
+  },
+  computed: {
+    classes() {
+      const base = 'text-3xl flex justify-center';
+
+      if (this.orientation === 'horizontal') {
+        return `${base} flex-row space-x-3`;
+      }
+
+      return `${base} fixed bottom-0 h-auto z-10 flex-col space-y-3 mb-8 ml-5 text-white`;
+    },
+  },
+};
+</script>
 
 <style scoped>
 svg {

@@ -1,9 +1,25 @@
 <template>
   <footer
-    class="bg-teal-300 text-gray-900 w-full h-8 xl:mt-20 2xl:mt-48 text-center rounded-t"
+    class="
+      text-xs bg-teal-300 text-gray-900 w-screen
+      h-16 md:h-8 xl:mt-20 2xl:mt-48 text-center rounded-t
+    "
   >
     <div class="py-1">
-      {{ (new Date()).getFullYear() }} &copy; Jeroen Claessens
+      {{ (new Date()).getFullYear() }} &copy; Jeroen Claessens -
+      view this site on
+      <font-awesome-icon :icon="['fab', 'github']" />
+    </div>
+    <div v-if="width < 768">
+      <Socials orientation="horizontal" />
     </div>
   </footer>
 </template>
+
+<script>
+import sizeMixin from '../mixins/sizeMixin';
+
+export default {
+  mixins: [sizeMixin],
+};
+</script>

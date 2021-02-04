@@ -7,13 +7,16 @@
       <References />
       <Contact class="mb-8" />
     </main>
-    <Socials />
+    <Socials v-if="width > 768" />
     <Footer />
   </div>
 </template>
 
 <script>
+import sizeMixin from '../mixins/sizeMixin';
+
 export default {
+  mixins: [sizeMixin],
   head() {
     const i18nHead = this.$nuxtI18nHead({ addSeoAttributes: true });
     return {
@@ -33,5 +36,6 @@ export default {
       ],
     };
   },
+
 };
 </script>
