@@ -31,5 +31,10 @@
     "email": "E-mail",
     "message": "Message",
     "send": "Send"
+  },
+  "error": {
+    "required": "Please fill in all the required fields",
+    "email": "Please fill in a valid email address",
+    "unknown": "Something went wrong. Please try again later."
   }
 }
