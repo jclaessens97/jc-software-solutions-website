@@ -12,9 +12,11 @@
       <h4>Education</h4>
       <VerticalTimeline :input="educationData" type="edu" class="ml-10 mt-5" />
     </div>
-    <button v-smooth-scroll href="#contact" class="action-button mt-5">
-      Get in touch
-    </button>
+    <div class="text-center">
+      <button v-smooth-scroll href="#contact" class="action-button mt-5">
+        Get in touch
+      </button>
+    </div>
   </section>
 </template>
 
