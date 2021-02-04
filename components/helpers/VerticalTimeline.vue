@@ -27,7 +27,7 @@
           >
         </div>
         <div class="flex flex-col my-auto">
-          <h5 class="font-bold text-lg">
+          <h5 class="font-bold text-base md:text-lg">
             {{ parseName(item) }}
           </h5>
           <p v-if="type === 'edu'" class="mt-3">
