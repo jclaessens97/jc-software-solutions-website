@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gray-900 overflow-x-hidden;
+  @apply bg-gray overflow-x-hidden;
 }
 
 .action-button {
-  @apply p-3 bg-teal-400 text-gray-900 rounded font-bold transition-all duration-500 inline-block uppercase;
+  @apply p-3 bg-teal-400 text-gray rounded font-bold transition-all duration-500 inline-block uppercase;
 }
 
 .action-button:hover {
