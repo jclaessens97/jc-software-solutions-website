@@ -34,3 +34,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+h4 {
+  @apply text-teal-300 text-3xl font-thin;
+}
+</style>

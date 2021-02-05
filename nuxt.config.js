@@ -59,7 +59,10 @@ export default {
   fontawesome: {
     icons: {
       solid: [
+        'faCogs',
         'faExternalLinkAlt',
+        'faHammer',
+        'faSearch',
       ],
       regular: [
         'faEnvelope',

@@ -2,6 +2,7 @@
   <div>
     <Header />
     <main class="container px-4 mx-auto">
+      <Services />
       <AboutMe />
       <TimeLine />
       <References />
