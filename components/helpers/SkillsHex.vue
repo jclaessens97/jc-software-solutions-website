@@ -123,7 +123,7 @@ export default {
   outline: 1px solid transparent; /* fix for jagged edges in FF on hover transition */
 }
 .hexLink {
-  @apply text-gray-900;
+  @apply text-gray;
   display: block;
   width: 100%;
   height: 100%;

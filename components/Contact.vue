@@ -1,6 +1,6 @@
 <template>
   <section id="contact">
-    <div class="col-span-full h-28 xl:pt-16 2xl:pt-40">
+    <div class="col-span-full h-28 xl:mt-16 2xl:mt-30">
       <h3>{{ $t('contact.title') }}</h3>
       <hr>
     </div>
@@ -101,7 +101,7 @@
         <div class="w-full">
           <button
             v-if="!sending"
-            class="bg-teal-300 text-gray-900 rounded w-full mx-auto font-bold py-2"
+            class="bg-teal-300 text-gray rounded w-full mx-auto font-bold py-2"
             type="button"
             @click="sendMessage"
           >
@@ -196,11 +196,11 @@ label {
 }
 
 .textfield {
-  @apply appearance-none block w-full bg-gray-200 text-gray-700
-        border border-gray-200 rounded py-2 px-2 mb-3 leading-tight;
+  @apply appearance-none block w-full bg-trueGray-200 text-trueGray-700
+        border border-trueGray-200 rounded py-2 px-2 mb-3 leading-tight;
 }
 
 .textfield:focus {
-  @apply outline-none bg-white border-gray-500;
+  @apply outline-none bg-white border-trueGray-500;
 }
 </style>

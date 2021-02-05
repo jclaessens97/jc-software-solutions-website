@@ -1,5 +1,5 @@
 <template>
-  <section class="h-full xl:pt-16 2xl:pt-40">
+  <section class="h-full xl:pt-16 2xl:pt-30">
     <div class="col-span-full h-28">
       <h3>Timeline</h3>
       <hr>
