@@ -49,8 +49,7 @@ export default {
     ],
     defaultLocale: 'en',
     detectBrowserLanguage: {
-      useCookie: true,
-      cookieKey: 'i18n_redirected',
+      useCookie: false,
       onlyOnRoot: true,
     },
     // SEO is setup on index.vue to improve performance (see nuxt-i18n docs)
