@@ -9,7 +9,7 @@
     <a href="https://discordapp.com/users/310137027330965514/" target="_blank" rel="noreferrer noopener" aria-label="Discord Icon">
       <font-awesome-icon :icon="['fab', 'discord']" />
     </a>
-    <a href="mailto:jclaessens97@hotmail.com" rel="noreferrer noopener" aria-label="Mail Icon">
+    <a href="mailto:jeroen@jc-software.solutions" rel="noreferrer noopener" aria-label="Mail Icon">
       <font-awesome-icon :icon="['far', 'envelope']" />
     </a>
   </aside>
