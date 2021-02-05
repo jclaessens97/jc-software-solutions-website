@@ -1,8 +1,8 @@
 <template>
   <footer
     class="
-      text-xs md:text-sm bg-teal-300 text-gray-900 w-screen
-      h-16 md:h-8 xl:mt-20 2xl:mt-48 text-center rounded-t
+      text-xs md:text-sm bg-teal-300 text-gray w-screen
+      h-16 md:h-8 xl:mt-20 2xl:mt-36 text-center rounded-t
     "
   >
     <div class="py-1">
