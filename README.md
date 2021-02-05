@@ -1,4 +1,4 @@
-# jcc-website
+# JC Software Solutions website
 [![Netlify Status](https://api.netlify.com/api/v1/badges/02469390-b370-4f56-8ae6-43c44fb4ac29/deploy-status)](https://app.netlify.com/sites/jcc-website/deploys)
 ## Build Setup
 
