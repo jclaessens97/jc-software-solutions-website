@@ -33,6 +33,12 @@ export default {
 
   modules: [
     'nuxt-i18n',
+    [
+      '@netsells/nuxt-hotjar', {
+        id: '2233325',
+        sv: '6',
+      },
+    ],
   ],
 
   i18n: {
