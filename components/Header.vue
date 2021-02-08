@@ -67,7 +67,7 @@ header::before {
   left: 0;
   width: 100vw;
   height: 100vh;
-  opacity: .6;
+  opacity: .4;
   z-index: -1;
 }
 </style>
