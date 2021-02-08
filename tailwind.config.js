@@ -8,6 +8,7 @@ module.exports = {
       teal: colors.teal,
       gray: '#1a202c',
       trueGray: colors.trueGray,
+      red: colors.red,
     },
   },
 };
