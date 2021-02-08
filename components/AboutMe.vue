@@ -16,7 +16,7 @@
           >
         </picture>
       </div>
-      <div class="text-white mt-10 pl-10">
+      <div class="text-white mt-10 pl-2 xl:pl-10">
         <p>
           {{ $t('aboutMe.paragraph1') }}
         </p>
