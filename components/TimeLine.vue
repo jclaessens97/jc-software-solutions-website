@@ -1,6 +1,6 @@
 <template>
-  <section class="h-full xl:pt-16 2xl:pt-30">
-    <div class="col-span-full h-28">
+  <section class="h-full mt-12 xl:mt-16 2xl:mt-30">
+    <div class="col-span-full h-12 xl:h-28">
       <h3>Timeline</h3>
       <hr>
     </div>

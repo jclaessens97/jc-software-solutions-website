@@ -1,6 +1,6 @@
 <template>
-  <section id="contact">
-    <div class="col-span-full h-28 xl:mt-16 2xl:mt-30">
+  <section id="contact" class="mt-5 xl:mt-16 2xl:mt-30">
+    <div class="col-span-full h-12 xl:h-28">
       <h3>{{ $t('contact.title') }}</h3>
       <hr>
     </div>
