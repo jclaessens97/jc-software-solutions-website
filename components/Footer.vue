@@ -7,7 +7,7 @@
   >
     <div class="py-1">
       {{ (new Date()).getFullYear() }} &copy; Jeroen Claessens -
-      view this site on
+      {{ $t('footer.viewOn') }}
       <font-awesome-icon :icon="['fab', 'github']" />
     </div>
     <div v-if="width < 768">

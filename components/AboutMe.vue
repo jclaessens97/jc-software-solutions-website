@@ -34,7 +34,7 @@
     </div>
     <div class="text-center">
       <button v-smooth-scroll href="#contact" class="action-button mt-5">
-        Get in touch
+        {{ $t('actions.getInTouch') }}
       </button>
     </div>
   </section>

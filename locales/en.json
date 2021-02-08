@@ -51,5 +51,8 @@
     "required": "Please fill in all the required fields",
     "email": "Please fill in a valid email address",
     "unknown": "Something went wrong. Please try again later."
+  },
+  "footer": {
+    "viewOn": "view this site on"
   }
 }
