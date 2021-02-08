@@ -19,7 +19,7 @@
         </div>
       </div>
       <div class="flex flex-col md:flex-row pb-3">
-        <div class="w-40 my-auto flex-shrink-0 text-center">
+        <div class="w-40 my-auto flex-shrink-0 mx-auto md:mx-0">
           <img
             :src="require(`~/assets/img/logos/${item.logo}`)"
             :alt="item.logo.slice(0, item.logo.length - 4)"
