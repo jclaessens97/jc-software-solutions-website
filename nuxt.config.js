@@ -4,7 +4,7 @@ export default {
   target: 'static',
 
   head: {
-    title: 'Jeroen Claessens',
+    title: 'Jeroen Claessens | Freelance Software Engineer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
