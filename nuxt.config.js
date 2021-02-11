@@ -39,6 +39,7 @@ export default {
         sv: '6',
       },
     ],
+    '@nuxtjs/gtm',
   ],
 
   i18n: {
@@ -79,6 +80,10 @@ export default {
     name: 'cube-grid',
     color: '#81e6d9',
     background: '#1a202c',
+  },
+
+  gtm: {
+    id: 'GTM-MW3GSSD',
   },
 
   build: {
