@@ -9,7 +9,7 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      { hid: 'og:image', name: 'og:image', content: 'https://jc-software.solutions/social-preview.jpg' },
+      { hid: 'og:image', name: 'og:image', content: '//jc-software.solutions/social-preview.jpg' },
     ],
     link: [
       { rel: 'apple-touch-icon', sizes: '180x180', href: '/favicons/apple-touch-icon.png' },
