@@ -6,16 +6,10 @@ export default {
   head: {
     title: 'Jeroen Claessens | Freelance Software Engineer',
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { hid: 'og:image', name: 'og:image', content: '//jc-software.solutions/social-preview.jpg' },
+      // Set in pages/index.vue
     ],
     link: [
-      { rel: 'apple-touch-icon', sizes: '180x180', href: '/favicons/apple-touch-icon.png' },
-      { rel: 'icon', sizes: '32x32', href: '/favicons/favicon-32x32.png' },
-      { rel: 'icon', sizes: '16x16', href: '/favicons/favicon-16x16.png' },
-      { rel: 'manifest', href: '/favicons/site.webmanifest' },
+      // Set in pages/index.vue
     ],
   },
 
