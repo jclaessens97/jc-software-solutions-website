@@ -32,7 +32,7 @@
             alt="Java"
           >
           <h1>Java</h1>
-          <p>Spring, Hibernate, WPF, ...</p>
+          <p>Spring, Hibernate, ...</p>
         </span>
       </div>
     </li>
