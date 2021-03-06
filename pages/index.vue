@@ -32,7 +32,7 @@ export default {
           name: 'description',
           content: this.$t('meta.description'),
         },
-        { hid: 'og:image', name: 'og:image', content: 'https://jc-software.solutions/social-preview.jpg' },
+        { property: 'og:image', content: 'https://jc-software.solutions/social-preview.jpg' },
         ...i18nHead.meta,
       ],
       link: [
