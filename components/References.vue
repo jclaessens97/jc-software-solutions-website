@@ -40,7 +40,7 @@ export default {
       autoplayTimeout: 3500,
       loop: true,
       perPage: 1,
-      paginationActiveColor: '#81e6d9',
+      paginationActiveColor: '#2dd4bf',
       paginationColor: '#fff',
     },
   }),

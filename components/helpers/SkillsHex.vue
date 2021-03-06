@@ -151,7 +151,7 @@ export default {
   width: 100%;
   padding: 5%;
   box-sizing: border-box;
-  background-color: #81e6d9;
+  background-color: #2dd4bf;
   font-weight: 300;
   -webkit-transition: -webkit-transform 0.2s ease-out, opacity 0.3s ease-out;
   transition: transform 0.2s ease-out, opacity 0.3s ease-out;

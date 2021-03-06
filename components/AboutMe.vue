@@ -42,6 +42,6 @@
 
 <style scoped>
 img {
-  box-shadow: 20px 20px 0 -3px #1a202c, 20px 20px #81e6d9;
+  box-shadow: 20px 20px 0 -3px #1a202c, 20px 20px #2dd4bf;
 }
 </style>

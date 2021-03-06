@@ -145,7 +145,7 @@ export default {
     content: '';
     position: absolute;
     left: -16px;
-    border-left: 1px solid #81e6d9;
+    border-left: 1px solid #2dd4bf;
     height: 100%;
     width: 1px;
 }
