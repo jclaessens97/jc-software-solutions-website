@@ -33,6 +33,8 @@ export default {
           content: this.$t('meta.description'),
         },
         { property: 'og:image', content: 'https://jc-software.solutions/social-preview.jpg' },
+        { property: 'og:image:width', content: '1200' },
+        { property: 'og:image:height', content: '627' },
         ...i18nHead.meta,
       ],
       link: [
