@@ -32,9 +32,10 @@ export default {
           name: 'description',
           content: this.$t('meta.description'),
         },
-        { property: 'og:image', content: 'https://jc-software.solutions/social-preview.jpg' },
+        { name: 'image', property: 'og:image', content: 'https://jc-software.solutions/social-preview.jpg' },
         { property: 'og:image:width', content: '1200' },
         { property: 'og:image:height', content: '627' },
+        { property: 'og:title', content: 'Jeroen Claessens | Freelance Software Engineer' },
         ...i18nHead.meta,
       ],
       link: [
